@@ -1,13 +1,14 @@
 #!/bin/bash
 
 # Set your GitHub repo details
-OWNER="GITHUB_OWNER"
-REPO="REPOSITORY_NAME"
+OWNER="Mohamed-Mostafa69"
+REPO="End-to-end-DevOps-Go-MongoDB"
 
 # Set AWS credentials - ideally, these would be read from a secure source or environment variables
 AWS_ACCESS_KEY_ID=$(awk -F "=" '/aws_access_key_id/ {print $2}' ~/.aws/credentials | xargs)
 AWS_SECRET_ACCESS_KEY=$(awk -F "=" '/aws_secret_access_key/ {print $2}' ~/.aws/credentials | xargs)
 
+echo $AWS_ACCESS_KEY_ID $AWS_SECRET_ACCESS_KEY
 # Function to create or update GitHub secret
 create_secret() {
     local secret_name="$1"
