@@ -12,5 +12,3 @@
 - [GitHub_CLI](https://github.com/cli/cli) installed
 - [K9s](https://k9scli.io/topics/install/) installed
 - [Studio_3T](https://studio3t.com/download/) OR [MongoDB_Compass](https://www.mongodb.com/try/download/atlascli)
-
-## Source <a href="https://www.youtube.com/watch?v=evtBxC8MXHY&lc=Ugz3Op2FStcEHRg_crt4AaABAg.9ztOBFwvHB89ztVel4UxjU" target="_blank">Eng. JohnyDev</a>
