@@ -11,4 +11,9 @@
 - [Helm](https://helm.sh/docs/intro/install/) installed
 - [GitHub_CLI](https://github.com/cli/cli) installed
 - [K9s](https://k9scli.io/topics/install/) installed
-- [Studio_3T](https://studio3t.com/download/) OR [MongoDB_Compass](https://www.mongodb.com/try/download/atlascli).
+- [Studio_3T](https://studio3t.com/download/) OR [MongoDB_Compass](https://www.mongodb.com/try/download/atlascli)
+
+## Change
+
+- Also make sure to change $DOMAIN_NAME of All Services
+- When deploy new k8s cluster generate again KUBECONFIG_SECRET
