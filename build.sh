@@ -11,7 +11,7 @@ namespace="go-survey" # you can keep this variable or if you will change it reme
 # End of Variables
 
 # update helm repos
-helm repo update
+helm repo add stable https://charts.helm.sh/stable
 
 # build the infrastructure
 echo "--------------------Creating EKS--------------------"
