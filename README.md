@@ -13,7 +13,7 @@
 - [K9s](https://k9scli.io/topics/install/) installed
 - [Studio_3T](https://studio3t.com/download/) OR [MongoDB_Compass](https://www.mongodb.com/try/download/atlascli)
 
-## Change
+## Change for Debug
 
 - Also make sure to change $DOMAIN_NAME of All Services
 - When deploy new k8s cluster generate again KUBECONFIG_SECRET
