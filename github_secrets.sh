@@ -8,7 +8,6 @@ REPO="End-to-end-DevOps-Go-MongoDB"
 AWS_ACCESS_KEY_ID=$(awk -F "=" '/aws_access_key_id/ {print $2}' ~/.aws/credentials | xargs)
 AWS_SECRET_ACCESS_KEY=$(awk -F "=" '/aws_secret_access_key/ {print $2}' ~/.aws/credentials | xargs)
 
-echo $AWS_ACCESS_KEY_ID $AWS_SECRET_ACCESS_KEY
 # Function to create or update GitHub secret
 create_secret() {
     local secret_name="$1"

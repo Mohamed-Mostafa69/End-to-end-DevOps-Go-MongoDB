@@ -13,6 +13,9 @@
 - [K9s](https://k9scli.io/topics/install/) installed
 - [Studio_3T](https://studio3t.com/download/) OR [MongoDB_Compass](https://www.mongodb.com/try/download/atlascli)
 
+
+## Source <a href="https://www.youtube.com/watch?v=evtBxC8MXHY&lc=Ugz3Op2FStcEHRg_crt4AaABAg.9ztOBFwvHB89zwAa3yS6Is" target="_blank">Eng.JohnyDev</a>
+
 ## Change
 
 - Also make sure to change $DOMAIN_NAME of All Services
